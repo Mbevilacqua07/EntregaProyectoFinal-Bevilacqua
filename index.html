@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Boutique del Whisky</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    
+</head>
+
+<body>
+<div class="wrapper">
+    <header class="header-mobile">
+        <h1 class="logo">Boutique del whisky</h1>
+        <button class="open-menu" id="open-menu">
+           
+        </button>
+    </header>
+    <aside>
+        <button class="close-menu" id="close-menu">
+            
+        </button>
+        <header>
+            <h1 class="logo">Boutique de Whisky</h1>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <button id="todos" class="boton-menu boton-categoria active">Todos los productos</button>
+                </li>
+                <li>
+                    <button id="Escoces" class="boton-menu boton-categoria">
+                        Escoceses</button>
+                </li>
+                <li>
+                    <button id="Irlandes" class="boton-menu boton-categoria">
+                        Irlandeses</button>
+                </li>
+                <li>
+                    <button id="Japones" class="boton-menu boton-categoria"> Japoneses</button>
+                </li>
+                <li>
+                    <a class="boton-menu boton-carrito" href="./carrito.html">
+                        Carrito <span id="numerito" class="numerito">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+<footer>
+    <p class="texto-footer">© 2023 Boutique del Whisky</p>
+</footer>
+    </aside>
+    <main>
+        <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+        <div id="contenedor-productos" class="contenedor-productos">
+        </div>
+    </main>
+</div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+
+</html>
